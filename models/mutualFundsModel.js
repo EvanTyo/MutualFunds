@@ -30,51 +30,51 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: true
         },
         expenseRatio: {
-            type: DataTypes.FLOAT,
+            type: DataTypes.STRING,
             allowNull: true
         },
         secYield: {
-            type: DataTypes.FLOAT,
+            type: DataTypes.STRING,
             allowNull: true
         },
         ytd: {
-            type: DataTypes.FLOAT,
+            type: DataTypes.STRING,
             allowNull: true
         },
         oneYr: {
-            type: DataTypes.FLOAT,
+            type: DataTypes.STRING,
             allowNull: true
         },
         threeYr: {
-            type: DataTypes.FLOAT,
+            type: DataTypes.STRING,
             allowNull: true
         },
         fiveYr: {
-            type: DataTypes.FLOAT,
+            type: DataTypes.STRING,
             allowNull: true
         },
         tenYr: {
-            type: DataTypes.FLOAT,
+            type: DataTypes.STRING,
             allowNull: true
         },
         sinceInception: {
-            type: DataTypes.FLOAT,
+            type: DataTypes.STRING,
             allowNull: true
         },
         initialInvestment: {
-            type: DataTypes.FLOAT,
+            type: DataTypes.STRING,
             allowNull: true
         },
         price: {
-            type: DataTypes.FLOAT,
+            type: DataTypes.STRING,
             allowNull: true
         },
         changePrice: {
-            type: DataTypes.FLOAT,
+            type: DataTypes.STRING,
             allowNull: true
         },
         changePricePercent: {
-            type: DataTypes.FLOAT,
+            type: DataTypes.STRING,
             allowNull: true
         }
     })
